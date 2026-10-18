@@ -302,7 +302,7 @@ This is a hackathon prototype. Please read these before relying on it.
 | Member | Focus |
 |---|---|
 | Muhammad Asim (team leader) | AMD model and AI integration |
-| L.E | Product, security scenarios, integration and submission |
+| L.E. Nichols | Product, security scenarios, integration and submission |
 | Ayesha and Khizer | Synthetic data and backend |
 | Minha | Dashboard and demo UI |
 
