@@ -1,0 +1,6 @@
+{
+  "name": "EduGuard Agent",
+  "description": "AI Security Agent for Educational Data Protection by SentrX. Proactively detects risky access to student records, explains threats, and enables human-in-the-loop decisions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

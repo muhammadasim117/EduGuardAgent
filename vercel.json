@@ -1,0 +1,31 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "vite",
+  "buildCommand": "vite build",
+  "outputDirectory": "dist",
+  "functions": {
+    "api/index.ts": {
+      "includeFiles": "backend/data/**",
+      "maxDuration": 60
+    }
+  },
+  "rewrites": [
+    { "source": "/auth/:path*", "destination": "/api" },
+    { "source": "/health", "destination": "/api" },
+    { "source": "/team", "destination": "/api" },
+    { "source": "/admin/:path*", "destination": "/api" },
+    { "source": "/reload", "destination": "/api" },
+    { "source": "/scan", "destination": "/api" },
+    { "source": "/incidents/:path*", "destination": "/api" },
+    { "source": "/incidents", "destination": "/api" },
+    { "source": "/analyses", "destination": "/api" },
+    { "source": "/users/:path*", "destination": "/api" },
+    { "source": "/users", "destination": "/api" },
+    { "source": "/permissions/:path*", "destination": "/api" },
+    { "source": "/permissions", "destination": "/api" },
+    { "source": "/students/:path*", "destination": "/api" },
+    { "source": "/students", "destination": "/api" },
+    { "source": "/access-logs/:path*", "destination": "/api" },
+    { "source": "/access-logs", "destination": "/api" }
+  ]
+}
