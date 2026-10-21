@@ -303,7 +303,7 @@ This is a hackathon prototype. Please read these before relying on it.
 |---|---|
 | Muhammad Asim (team leader) | AMD model and AI integration |
 | L.E. Nichols | Product, security scenarios, integration and submission |
-| Ayesha and Khizer | Synthetic data and backend |
+| Ayesha and Khizar Rafiq | Synthetic data and backend |
 | Minha | Dashboard and demo UI |
 
  
